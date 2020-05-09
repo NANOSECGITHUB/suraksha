@@ -4,10 +4,6 @@ import React, { Component } from 'react'
 import axios from 'axios';
 import './SideDrawer.css';
 
-
-import Resident from './Resident';
-import { Redirect } from 'react-router-dom';
-
 import List from '@material-ui/core/List'
 import ListItem from '@material-ui/core/ListItem'
 import ListItemText from '@material-ui/core/ListItemText'
@@ -19,17 +15,12 @@ import PrintIcon from '@material-ui/icons/Print';
 import AirportShuttleSharpIcon from '@material-ui/icons/AirportShuttleSharp';
 import ContactsSharpIcon from '@material-ui/icons/ContactsSharp';
 
-//import ListItemGraphic from '@material-ui/core/ListItemGraphic'
-
 import Collapse from '@material-ui/core/Collapse'
 import ExpandLess from '@material-ui/icons/ExpandLess'
 import ExpandMore from '@material-ui/icons/ExpandMore'
 import { withStyles } from '@material-ui/core/styles'
 import { Link } from 'react-router-dom'
 import { Avatar } from '@material-ui/core';
-
-//import menuItems from './menuItems'
-//var menuItems =  {data: [{'name': 'Item1','url' : '/item1'},{'name': 'Item2','url': '/item2'},{'name': 'Item3','children':[{'name': 'Item31','url': '/item31'}, {'name': 'Item32','url': '/item32'}]}]};
 
 const styles = {
   list: {
